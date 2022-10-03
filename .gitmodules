@@ -1,0 +1,3 @@
+[submodule "signalgp-lite"]
+	path = signalgp-lite
+	url = https://github.com/mmore500/signalgp-lite.git
