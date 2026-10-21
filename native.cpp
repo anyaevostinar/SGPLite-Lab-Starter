@@ -10,9 +10,9 @@ int main(int argc, char *argv[]) {
 
   Organism* new_org = new Organism(&world, 0);
   world.Inject(*new_org);
-  world.Resize(10,10);
+  world.Resize(100,100);
 
-  for(int update=0; update<400; update++){
+  for(int update=0; update<1000; update++){
     world.Update();
   }
 }

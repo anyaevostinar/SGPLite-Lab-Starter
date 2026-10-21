@@ -2,6 +2,7 @@
 #define WORLD_H
 
 #include "emp/Evolve/World.hpp"
+#include "Task.h"
 
 #include "Org.h"
 
@@ -41,8 +42,9 @@ public:
     reproduce_queue.clear();
   }
 
+  // Called by IO in Instructions.h
   void CheckOutput(float output, OrgState &state) {
-    //TODO: Check if the organism solved a task!
+    //TODO!
   }
 
   void ReproduceOrg(emp::WorldPosition location) {
